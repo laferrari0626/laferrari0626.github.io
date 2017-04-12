@@ -1,0 +1,44 @@
+/*
+This is my css
+*/
+#myHeader {
+	width: 1015px;
+	height: 120px;
+	position: relative;
+	margin: 0 auto;
+	background: url(/images/myHeader2.png) no-repeat
+}
+
+a.sitetitle {
+    display: block;
+    float: left;
+    margin: 45px 20px 0;
+    width: 240px;
+    height: 60px;
+    background: url(/images/ohsoft_logo_shadow2.png)no-repeat;
+}
+
+#myNav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 750px;
+    height: 60px;
+    background: rgba(14, 160, 227, 1);
+}
+
+.myMenu ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.myMenu li {
+    position: relative;
+    float: left;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+}

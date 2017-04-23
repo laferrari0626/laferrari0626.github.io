@@ -1,6 +1,18 @@
 /*
 This is my css
 */
+body{
+margin: 0;
+padding: 0;
+background-color: #ededed;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 20px;
+}
+
+header{
+background: url(/images/myHeader3.png) repeat-x;
+}
+
 #myHeader {
 	width: 1015px;
 	height: 120px;
@@ -41,4 +53,44 @@ a.sitetitle {
     height: 60px;
     line-height: 60px;
     margin-right: 20px;
+}
+.myMenu  img    {
+    vertical-align: middle;
+}
+
+.myMenu ul li a   {
+    color: white;
+    padding: 0 15px;
+    margin-right: 1px;
+}
+
+#mainContent {
+        clear: both;
+	width: 1015px;
+	margin: 0 auto;
+	padding: 5px 10px 0;
+}
+
+.left{
+        float:left;
+}
+
+.right{
+        float:right;
+}
+
+#myContent {
+	width: 700px;
+}
+
+#mySidebar {
+	width: 300px;
+}
+
+.h30 {
+        height: 30px;   
+}
+
+.clear {
+        clear:both;   
 }
